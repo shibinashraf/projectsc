@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: 'Baumans', cursive;
+}
+
+#credit{
+    color: white;
+    font-size: 0.7rem;
+    padding-right: 1%;
+    border-right: 0.3rem solid #8c00af;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 1%;
+    border-left: 0.3rem solid #8c00af;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    bottom:0;   
+
+
+
+}
+
+.body{
+    width: 100%;
+    min-height:100vh;
+    height: auto;
+    overflow-y: auto;
+    background-image: linear-gradient(to bottom, #490063, #0E2257);
+}
+
+
+
+#quote{
+    color: white;
+    text-align: center;
+    padding: 10%;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 0.4rem;
+}
+
+.footer{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;   
+
+}
+
+#image{
+    width: 10%;
+    transition: all 0.3s ease-in-out; 
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+
+
+
+}
+
+.buttons{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    padding-bottom:30px;
+    
+}
+#q{ 
+    padding-bottom:10px;
+    color: #5499FF;
+    text-shadow: 2px 2px #8525FF;
+}
+#for{
+    padding-bottom:10px;
+
+    color: #FFFFFF;
+    text-shadow: 2px 2px #8525FF;
+}
+
+#day{
+    padding-bottom:10px;
+
+    color: #8525FF;
+    text-shadow: 2px 2px #5499FF;
+}
+
+.outerheading{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading{
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin:auto;
+    overflow:auto;
+    padding-bottom:30px;
+    padding-top:30px;
+
+}
+
+@media (max-width: 600px){
+    *{
+        font-size: 20px;
+    }
+
+    .outerheading{
+        height: 25%;
+    }
+
+    .content{
+        height: 50%;
+    }
+
+    .footer{
+        height: 25%;
+    }
+
+    #image{
+        width: 30%;
+    }
+
+    .buttons{
+        margin-top: 20%;
+    }
+}
